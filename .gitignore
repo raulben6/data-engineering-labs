@@ -1,0 +1,28 @@
+# --- Datos: nunca se versionan, se descargan con scripts ---
+data/
+*.csv
+*.parquet
+*.xlsx
+
+# --- Secretos ---
+.env
+*.pem
+*-credentials.json
+service-account*.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Editores y sistema operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
